@@ -1,0 +1,2 @@
+# Required only to regenerate the static notebook preview, not to serve the site.
+nbconvert==7.17.2
