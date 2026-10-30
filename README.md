@@ -6,16 +6,16 @@
 
 This repository presents the completed Phase 3 research project by **Frank Valdez**, investigating weekly grocery price movements using longitudinal online catalogs from Long Island retailers. It includes the original final report, presentation, research poster, and Python notebook, together with a public website for reading all four documents.
 
-**[Visit the research website](https://frankstop.github.io/GroceryStoreResearch/)** · **[Browse all documents](https://frankstop.github.io/GroceryStoreResearch/#documents)**
+**[Visit the research website](https://frankiejvaldez.com/GroceryStoreResearch/)** · **[Browse all documents](https://frankiejvaldez.com/GroceryStoreResearch/#documents)**
 
 ## Research documents
 
 | Document | What it contains | View online | Original file |
 | --- | --- | --- | --- |
-| Final research report | Full methodology, data preparation, exploratory analysis, model comparisons, error analysis, and conclusions; 13 pages. | [Read report](https://frankstop.github.io/GroceryStoreResearch/view.html?doc=report) | [PDF](documents/Phase_3_Final_Report_Grocery_Store_Research.pdf) |
-| Presentation slides | A 12-slide walkthrough of the research question, approach, findings, and recommendations. | [View slides](https://frankstop.github.io/GroceryStoreResearch/view.html?doc=slides) | [PDF](documents/Phase_3_Presentation_Slides_Grocery_Store_Research.pdf) |
-| Research poster | A single landscape page summarizing the dataset, experiments, visualizations, and results. | [View poster](https://frankstop.github.io/GroceryStoreResearch/view.html?doc=poster) | [PDF](documents/Phase_3_Poster_Grocery_Store_Research.pdf) |
-| Analysis notebook | Python implementation with saved charts, tables, and evaluation outputs; 20 cells. | [Read notebook](https://frankstop.github.io/GroceryStoreResearch/view.html?doc=notebook) | [Jupyter notebook](documents/Grocery_Store_Research_Phase3.ipynb) |
+| Final research report | Full methodology, data preparation, exploratory analysis, model comparisons, error analysis, and conclusions; 13 pages. | [Read report](https://frankiejvaldez.com/GroceryStoreResearch/view.html?doc=report) | [PDF](documents/Phase_3_Final_Report_Grocery_Store_Research.pdf) |
+| Presentation slides | A 12-slide walkthrough of the research question, approach, findings, and recommendations. | [View slides](https://frankiejvaldez.com/GroceryStoreResearch/view.html?doc=slides) | [PDF](documents/Phase_3_Presentation_Slides_Grocery_Store_Research.pdf) |
+| Research poster | A single landscape page summarizing the dataset, experiments, visualizations, and results. | [View poster](https://frankiejvaldez.com/GroceryStoreResearch/view.html?doc=poster) | [PDF](documents/Phase_3_Poster_Grocery_Store_Research.pdf) |
+| Analysis notebook | Python implementation with saved charts, tables, and evaluation outputs; 20 cells. | [Read notebook](https://frankiejvaldez.com/GroceryStoreResearch/view.html?doc=notebook) | [Jupyter notebook](documents/Grocery_Store_Research_Phase3.ipynb) |
 
 All four supplied original files are preserved unchanged. The readable notebook HTML and document thumbnails are additional presentation assets.
 
@@ -82,7 +82,7 @@ The export reads saved outputs and does not run the research code.
 
 ## GitHub Pages
 
-Pages publishes the **root of the `main` branch**. The `.nojekyll` file serves the static files directly. After edits are committed and pushed to `main`, GitHub Pages republishes the site.
+Pages publishes the **root of the `main` branch**, using the account’s existing `frankiejvaldez.com` Pages domain with HTTPS enabled. The `.nojekyll` file serves the static files directly. After edits are committed and pushed to `main`, GitHub Pages republishes the site.
 
 To inspect or change the publishing source, open the repository's **Settings → Pages → Build and deployment**, select **Deploy from a branch**, and use **`main` / `(root)`**. GitHub's [Pages configuration documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) describes this setup.
 
