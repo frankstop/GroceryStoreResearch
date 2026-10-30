@@ -83,6 +83,12 @@ export async function renderPDF(container, doc) {
   previous.addEventListener("click", () => render(currentPage - 1));
   next.addEventListener("click", () => render(currentPage + 1));
   input.addEventListener("change", () => render(Math.round(Number(input.value))));
+  input.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      render(Math.round(Number(input.value)));
+    }
+  });
   zoom.addEventListener("change", () => render(currentPage));
   let resizeTimer;
   window.addEventListener("resize", () => {
